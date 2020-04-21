@@ -26,6 +26,55 @@
             android:layout_height="wrap_content"
             android:hint="Digite seu e-mail" />
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cores" />
+
+        <CheckBox
+            android:id="@+id/checkVerde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verde" />
+
+        <CheckBox
+            android:id="@+id/checkBranco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Branco" />
+
+        <CheckBox
+            android:id="@+id/checkVermelho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vermelho" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexo" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonMasculino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masculino" />
+
+            <RadioButton
+                android:id="@+id/radioButtonFeminino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feminino" />
+
+        </RadioGroup>
+
         <Button
             android:id="@+id/button7"
             android:layout_width="match_parent"
